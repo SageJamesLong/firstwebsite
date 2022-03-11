@@ -91,7 +91,7 @@ strong {
 .img-row2 {
     display:flex;
     justify-content: center;
-    max-width: 60%;
+    max-width: 80%;
     height: 310px;
     column-gap: 50px;
 }

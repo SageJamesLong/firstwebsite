@@ -1,0 +1,52 @@
+h1 {
+    color: rgb(73, 0, 0);
+    font-size:65px;
+}
+
+h2 {
+    color: rgb(73, 0, 0);
+    font-size: 30px;
+}
+
+h3 {
+    color:rgb(201, 25, 25);
+    border: solid 3px;
+    width: 20%;
+    background-color: white;
+    text-shadow: black 1px 1px 1px;
+    font-size:x-large;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    padding: 2px;
+}
+
+hr {
+    border: solid 1px;
+}
+
+p {
+    color:rgb(255, 255, 255)
+}
+
+a {
+    color:rgb(238, 192, 192)
+}
+
+figcaption {
+    color: white;
+    font-weight: bolder;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin: auto;
+    background-color: rgb(79, 90, 143);
+    width: 85%;
+}

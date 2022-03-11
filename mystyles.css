@@ -44,23 +44,28 @@ img {
 }
 
 hr {
-    border: solid 1px;
-    color:darkblue;
+    border:rgb(0, 0, 0) 2px;
+    height: 2px;
+    width: 85%;
+    background-color:black;
+    color:black;
 }
 
 p {
     padding-top: 8px;
     height: 30px;
     width: 95%;
-    background-color: rgba(33, 25, 71, 0.5);
-    text-shadow: black 1px 1px 0px;
+    background-color: rgba(168, 58, 58, 0.596);
+    text-shadow: black 2px 0px 0px;
     font-size: 18px;
-    color:rgb(255, 255, 255)
+    color:rgb(255, 255, 255);
+    border-radius: 4px;
 }
 
 a {
+    text-shadow: black 1px 1px 0px;
     font-weight: bold;
-    color:rgb(236, 186, 186)
+    color:rgba(190, 182, 241, 0.822)
 }
 
 figcaption {
@@ -71,7 +76,7 @@ figcaption {
 
 strong {
     font-size: 19px;
-    text-shadow: rgb(90, 0, 0) 2px 2px 1px;
+    text-shadow: rgb(6, 0, 90) 1px 1px 6px, black 2px 2px 0px;
 }
 
 .row {
@@ -80,6 +85,11 @@ strong {
 }
 
 .container {
+    border-radius: 6px;
+    border-right:rgb(114, 0, 0) double 6px;
+    border-bottom:rgb(0, 32, 120) double 6px;
+    border-left: rgb(114, 0, 0) double 6px;
+    border-top: rgb(0, 32, 120) double 6px;
     overflow: hidden;
     min-width: fit-content;
     margin: auto;
